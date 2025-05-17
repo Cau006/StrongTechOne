@@ -183,8 +183,19 @@ html {
 }
 
 @media (max-width: 768px) {
+    .btn-contact {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.2rem 0.7rem;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    margin-right: 1rem;
+  }
   .mobile-menu-icon {
     display: flex;
+    margin-right: 1rem;
   }
   .nav {
     position: absolute;
@@ -234,8 +245,6 @@ html {
     font-size: 2rem;
   }
 }
-
-/* Second Part */
 
 .container2 {
   display: flex;
