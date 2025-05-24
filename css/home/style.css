@@ -269,7 +269,7 @@ html {
   line-height: 1.5;
 }
 
-.titulo_slide {
+.title_slide {
   font-size: 1.5rem;
   margin-top: -10rem;
 }
@@ -347,7 +347,7 @@ html {
   .content h2 {
     font-size: 1.5rem;
   }
-  .titulo_slide {
+  .title_slide {
     margin-top: -6rem;
   }
   .carousel {
@@ -371,7 +371,7 @@ html {
   .carousel {
     flex: 1 1 100%;
   }
-  .titulo_slide {
+  .title_slide {
     margin-top: 0;
     text-align: center;
   }
@@ -582,4 +582,59 @@ font-size: 0.9rem;
 #footer-bottom p {
   font-size: 0.8rem;
 }
+}
+/* Seção de Integrantes */
+#team {
+  padding: 4rem 0;
+  background-color: #f5f7fa; /* tom suave para destacar */
+  color: #111827;
+}
+
+.team-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #007bff;
+}
+
+.team-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.team-member {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.team-member img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.team-member h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.team-member .role {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6366f1;
+  margin-bottom: 0.75rem;
+}
+
+.team-member .description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #4b5563;
 }
